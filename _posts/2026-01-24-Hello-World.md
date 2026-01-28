@@ -12,4 +12,3 @@ tags: [first]
 
 ![photo](/assets/img/wechat_sun.jpg){: w="480" h="100"}
 _夕阳下的路灯、吊机、地铁和远方的"流星"_
-
