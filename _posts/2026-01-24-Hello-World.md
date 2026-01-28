@@ -7,7 +7,7 @@ tags: [first]
 ---
 
 # Hello World
-这是我的第一篇blog!
+这是我的第一篇blog!!!
 
 
 ![photo](/assets/img/wechat_sun.jpg){: w="480" h="100"}
