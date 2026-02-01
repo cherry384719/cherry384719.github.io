@@ -1,5 +1,5 @@
 ---
-title: "首记"
+title: "First entry"
 description: 我的第一篇blog
 date: 2026-01-24 00:00:00 +0800
 categories: [Hello World]
