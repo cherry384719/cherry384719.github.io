@@ -1,4 +1,4 @@
-**大佬布局教程：**https://huanyushi.github.io/posts/chirpy-blog-customization
+**大佬布局教程：** https://huanyushi.github.io/posts/chirpy-blog-customization
 
 
 # Chirpy Starter
