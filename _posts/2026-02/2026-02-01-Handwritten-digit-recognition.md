@@ -9,11 +9,17 @@ mermaid: true
 math: true
 ---
 
+---
 > 在此下载本文对应的 Jupyter Notebook 文件及数据： 
 - [**number_knn_classification.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)（点击[这里](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)可进行预览）
 - [**data/mnist_test.csv**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/data/mnist_test.csv)
 - [**data/demo.png**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/data/demo.png)
 {: .prompt-info}
+
+文件结构：
+
+
+---
 
 ## 利用 KNN 算法实现手写数字识别
 
@@ -169,6 +175,11 @@ def load_model_and_predict():
 
 load_model_and_predict()
 ```
+运行结果：
+
+![demo.png](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMSaYCkpG5AQcn9eLHaVix6w9sYXMMAAuwNaxtniglULbRkpMd-ZQkBAAMCAAN4AAM4BA.png){: .normal}
+
+**`预测的数字是: 2`**
 
 
 ### 总结
