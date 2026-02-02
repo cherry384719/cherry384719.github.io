@@ -190,7 +190,7 @@ _Image Caption_   // 图片名称
 ### 3.1 命名
 在`_posts`文件夹中添加的markdown文件应命名为`YYYY-MM-DD-your-title.md`。
 
-### 3.2 代码文件及数据集
-代码以及数据集不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
+### 3.2 代码、pdf文件和数据集等
+不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
 
 对于Jupyter Notebook文件，还可以通过[https://nbviewer.org/](https://nbviewer.org/)这个网站进行链接预览。
