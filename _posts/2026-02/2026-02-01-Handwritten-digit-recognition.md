@@ -71,23 +71,23 @@ import matplotlib.pyplot as plt
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
-import joblib					# 保存模型
+import joblib	# 保存模型
 
 # 每张图片都是由 28 * 28 = 784 个像素点组成的 
 # 我们可以把每张图片看作是一个包含 784 个特征的样本。
 
 # 定义函数，接受用户传入索引，显示对应的手写数字图片
 def show_digit(index):
-	data = pd.read_csv('./data/mnist_test.csv')  # 读取数据集
-	if(index < 0 or index >= len(data)):
-		print("索引超出范围，请输入有效的索引值（0-{}）".format(len(data)-1))
-		return
+    data = pd.read_csv('./data/mnist_test.csv')  # 读取数据集
+    if(index < 0 or index >= len(data)):
+        print("索引超出范围，请输入有效的索引值（0-{}）".format(len(data)-1))
+        return
 
-	X = data.iloc[:, 1:]  # 提取像素数据
-	image = X.iloc[index].values.reshape(28, 28)  # 将一维数组重塑为28x28的二维数组
-	plt.imshow(image, cmap='gray')                   # 使用灰度图显示图片
-	plt.axis('off')                                  # 关闭坐标轴
-	plt.show()                                       # 显示图片
+    X = data.iloc[:, 1:]  # 提取像素数据
+    image = X.iloc[index].values.reshape(28, 28)  # 将一维数组重塑为28x28的二维数组
+    plt.imshow(image, cmap='gray')                   # 使用灰度图显示图片
+    plt.axis('off')                                  # 关闭坐标轴
+    plt.show()                                       # 显示图片
 
 show_digit(9) # 显示索引为9的图片
 ```
@@ -122,26 +122,26 @@ show_digit(9) # 显示索引为9的图片
 **预处理、训练、保存模型：**
 ```python
 def train_model():
-	data = pd.read_csv('./data/mnist_test.csv')  # 读取数据集
-	X = data.iloc[:, 1:] / 255.0  # 提取像素数据并归一化
-	y = data.iloc[:, 0]   # 提取标签数据
+    data = pd.read_csv('./data/mnist_test.csv')  # 读取数据集
+    X = data.iloc[:, 1:] / 255.0  # 提取像素数据并归一化
+    y = data.iloc[:, 0]   # 提取标签数据
 
-	# 将数据集拆分为训练集和测试集
-	X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=40)
+    # 将数据集拆分为训练集和测试集
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=40)
 
-	# 创建KNN分类器实例
-	knn = KNeighborsClassifier(n_neighbors=5)
+    # 创建KNN分类器实例
+    knn = KNeighborsClassifier(n_neighbors=5)
 
-	# 训练模型
-	knn.fit(X_train, y_train)
+    # 训练模型
+    knn.fit(X_train, y_train)
 
-	# 在测试集上评估模型
-	accuracy = knn.score(X_test, y_test)
-	print("模型在测试集上的准确率: {:.2f}%".format(accuracy * 100))
+    # 在测试集上评估模型
+    accuracy = knn.score(X_test, y_test)
+    print("模型在测试集上的准确率: {:.2f}%".format(accuracy * 100))
 
-	# 保存模型到文件
-	joblib.dump(knn, './my_model/knn_mnist_model.pkl')
-	print("模型训练完成并已保存到 './my_model/knn_mnist_model.pkl' 文件中。")
+    # 保存模型到文件
+    joblib.dump(knn, './my_model/knn_mnist_model.pkl')
+    print("模型训练完成并已保存到 './my_model/knn_mnist_model.pkl' 文件中。")
 
 train_model()
 ```
@@ -149,23 +149,23 @@ train_model()
 **加载模型并进行预测：**
 ```python
 def load_model_and_predict():
-	# 加载保存的模型
-	knn = joblib.load('./my_model/knn_mnist_model.pkl')
+    # 加载保存的模型
+    knn = joblib.load('./my_model/knn_mnist_model.pkl')
 
-	# 加载图片数据
-	X = plt.imread('./data/demo.png') 
+    # 加载图片数据
+    X = plt.imread('./data/demo.png') 
 
-	# 绘制图片
-	plt.imshow(X, cmap='gray')
-	plt.axis('off')
-	plt.show()
-	
-	# 注意，此时图片不需要进行归一化了，因为通过plt.imread读取的像素值已经在0-1之间
-	X = X.reshape(1, -1)# 重塑为一维数组
+    # 绘制图片
+    plt.imshow(X, cmap='gray')
+    plt.axis('off')
+    plt.show()
+    
+    # 注意，此时图片不需要进行归一化了，因为通过plt.imread读取的像素值已经在0-1之间
+    X = X.reshape(1, -1)# 重塑为一维数组
 
-	# 使用加载的模型进行预测
-	prediction = knn.predict(X)
-	print("预测的数字是:", prediction[0])
+    # 使用加载的模型进行预测
+    prediction = knn.predict(X)
+    print("预测的数字是:", prediction[0])
 
 load_model_and_predict()
 ```

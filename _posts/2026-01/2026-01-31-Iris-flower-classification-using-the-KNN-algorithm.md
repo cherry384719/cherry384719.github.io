@@ -154,13 +154,13 @@ print(f'\nKNN分类器在测试集上的准确率: {accuracy * 100:.2f}%')
 
 # 场景二：对新样本进行预测
 new_samples = [[5.1, 3.5, 1.4, 0.2],   # 预期类别：0 (setosa)
-			   [6.7, 3.1, 4.7, 1.5],       # 预期类别：1 (versicolor)
-			   [7.2, 3.6, 6.1, 2.5]]       # 预期类别：2 (virginica)
+               [6.7, 3.1, 4.7, 1.5],   # 预期类别：1 (versicolor)
+               [7.2, 3.6, 6.1, 2.5]]   # 预期类别：2 (virginica)
 new_samples_scaled = scaler.transform(new_samples)  # 对新样本进行标准化
 predictions = knn.predict(new_samples_scaled)
 print('\n新样本预测结果:')
 for sample, pred in zip(new_samples, predictions):
-	print(f'样本 {sample} 预测类别: {pred} ({iris.target_names[pred]})')
+    print(f'样本 {sample} 预测类别: {pred} ({iris.target_names[pred]})')
 
 ```
 

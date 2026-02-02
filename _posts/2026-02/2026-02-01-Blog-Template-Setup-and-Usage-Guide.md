@@ -194,3 +194,6 @@ _Image Caption_   // 图片名称
 不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
 
 对于Jupyter Notebook文件，还可以通过[https://nbviewer.org/](https://nbviewer.org/)这个网站进行链接预览。
+
+> 代码块中的缩进要用**空格**而不是**制表符**，否则渲染出的代码缩进会过大。
+{: .prompt-info}
