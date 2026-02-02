@@ -25,8 +25,11 @@ math: true
 - 3.训练 KNN 模型
 - 4.保存模型并进行预测
 
+<details class="details-inline" markdown="1">
+<summary>flowchart</summary>
 
 ```mermaid
+
 flowchart TD
     A([开始]) --> B[读取 MNIST CSV 数据]
     B --> C{是否可视化样本?}
@@ -50,6 +53,9 @@ flowchart TD
     R --> S[模型预测]
     S --> T([输出预测数字])
 ```
+
+</details>
+
 
 #### **第一步：** 读取 MNIST 数据并可视化样本
 

@@ -7,9 +7,12 @@ description: 本文通过一个完整的示例演示如何使用 KNN 算法对�
 image:
   path: /assets/img/Iris_douglasiana_flower_2003-03-17.jpg
   alt: 鸢尾花
+
+mermaid: true
 ---
 
-> 在此下载本文对应的 Jupyter Notebook 文件： [iris_knn_classification.ipynb](/assets/code/iris_knn_classification.ipynb)
+> 在此下载本文对应的 Jupyter Notebook 文件： 
+- [iris_knn_classification.ipynb](/assets/code/iris_knn_classification.ipynb)
 {: .prompt-info}
 
 ## 实现流程：
@@ -18,6 +21,38 @@ image:
 - 3. 特征工程（特征提取、标准化...）
 - 4. 模型训练
 - 5. 模型预测与评估
+
+<details class="details-inline" markdown="1">
+<summary>flowchart</summary>
+
+```mermaid
+flowchart TD
+    A[项目开始] --> B[数据获取<br/>Iris 数据集]
+    
+    B --> C[数据探索分析 EDA<br/>查看样本数 / 特征 / 标签分布]
+    C --> D[数据预处理]
+    
+    D --> D1[训练集 / 测试集划分]
+    D1 --> D2[特征标准化<br/>StandardScaler]
+    
+    D2 --> E[模型构建]
+    E --> E1[选择 KNN 算法]
+    E1 --> E2[设置超参数 k]
+    
+    E2 --> F[模型训练<br/>fit]
+    F --> G[模型预测<br/>predict]
+    
+    G --> H[模型评估]
+    H --> H1[准确率 Accuracy]
+    H --> H2[预测结果分析]
+    
+    H --> I[结果总结与分析]
+    I --> J[模型改进方向<br/>参数调优 / 交叉验证]
+    J --> K[项目结束]
+
+```
+
+</details>
 
 ### **第一步：** 从`sklearn.datasets`中获取iris数据集
 
