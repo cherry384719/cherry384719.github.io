@@ -11,7 +11,7 @@ pin: true
 ---
 
 
-## 参考：
+## 参考
 - [**chirpy官方文档**](https://chirpy.cotes.page/posts/write-a-new-post/)
 
 - [**huanyushi大佬教程**](https://huanyushi.github.io/posts/chirpy-blog-customization/)
@@ -148,6 +148,7 @@ Latex & markdown
 
 ### 2.3 图片
 
+#### 2.3.1 显示设置
 对于基本的md语法来说，图片显示方法为：`![descriptiom](path/to/image)`。此外，在本主题中还能对图片大小、位置、名称、阴影进行调整。
 
 ```markdown
@@ -170,3 +171,26 @@ _Image Caption_   // 图片名称
 ![Light mode only](/path/to/light-mode.png){: .light }
 ![Dark mode only](/path/to/dark-mode.png){: .dark }
 ```
+
+#### 2.3.2 存放规范
+封面图片放在`~/assets/img`中，其他图片建议放在图床上。
+
+<div class="box-tip" markdown="1">
+<div class="title"> 好用的图床项目 </div>
+- [Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) （正在使用中）
+- [PicX](https://picx.xpoet.cn/#/) 
+- [PicGo](https://github.com/Molunerfinn/PicGo)
+</div>
+
+个人图床网址：[https://photo.20061204.xyz/](https://photo.20061204.xyz/)
+
+
+## 3.文件规范操作
+
+### 3.1 命名
+在`_posts`文件夹中添加的markdown文件应命名为`YYYY-MM-DD-your-title.md`。
+
+### 3.2 代码文件及数据集
+代码以及数据集不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
+
+对于Jupyter Notebook文件，还可以通过[https://nbviewer.org/](https://nbviewer.org/)这个网站进行链接预览。

@@ -11,8 +11,8 @@ image:
 mermaid: true
 ---
 
-> 在此下载本文对应的 Jupyter Notebook 文件： 
-- [iris_knn_classification.ipynb](/assets/code/iris_knn_classification.ipynb)
+> - [下载本文对应的 Jupyter Notebook 文件](https://github.com/cherry384719/Code_storage/blob/main/iris_knn_classification.ipynb)
+- [在线预览](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/iris_knn_classification.ipynb)
 {: .prompt-info}
 
 ## 实现流程：
