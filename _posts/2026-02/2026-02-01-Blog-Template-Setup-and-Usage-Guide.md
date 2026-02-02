@@ -173,7 +173,7 @@ _Image Caption_   // 图片名称
 ```
 
 #### 2.3.2 存放规范
-封面图片放在`~/assets/img`中，其他图片建议放在图床上。
+封面图片放在`~/assets/img`中，其他图片建议放在自建图床上。
 
 <div class="box-tip" markdown="1">
 <div class="title"> 好用的图床项目 </div>
