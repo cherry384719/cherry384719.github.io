@@ -11,13 +11,21 @@ math: true
 
 ---
 > 在此下载本文对应的 Jupyter Notebook 文件及数据： 
-- [**number_knn_classification.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)（点击[这里](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)可进行预览）
+- [**Handwritten_digit_recognition.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)（点击[这里](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)可进行预览）
 - [**data/mnist_test.csv**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/data/mnist_test.csv)
 - [**data/demo.png**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/data/demo.png)
 {: .prompt-info}
 
 文件结构：
-
+```markdown
+project-root/
+│ 
+├── data/                          
+│   ├── mnist_test.csv             # MNIST 测试集（CSV 格式）
+│   └── demo.png                   # 示例手写数字图片
+├── my_model/                      # 存放训练好的模型
+└── Handwritten_digit_recognition.ipynb  # 手写数字识别实验 Notebook
+```
 
 ---
 
@@ -97,9 +105,13 @@ def show_digit(index):
 
 show_digit(9) # 显示索引为9的图片
 ```
-运行结果：
+
+<details class="details-inline" markdown="1">
+<summary>运行结果</summary>
 
 ![索引为9的图片](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMRaX9yaN2zWE8mYdOmSvTtC7QDxNsAAjINaxsSogFU2CkWNKmgo2YBAAMCAAN4AAM4BA.png){: .normal}
+
+</details>
 
 
 #### **第二步：** 数据预处理
@@ -175,12 +187,16 @@ def load_model_and_predict():
 
 load_model_and_predict()
 ```
-运行结果：
+
+
+<details class="details-inline" markdown="1">
+<summary>运行结果</summary>
 
 ![demo.png](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMSaYCkpG5AQcn9eLHaVix6w9sYXMMAAuwNaxtniglULbRkpMd-ZQkBAAMCAAN4AAM4BA.png){: .normal}
 
 **`预测的数字是: 2`**
 
+</details>
 
 ### 总结
 本 Notebook 完成了手写数字识别的 KNN 流程：数据读取、可视化、训练/测试集划分、模型训练与评估、模型保存与预测。后续可通过调整 `n_neighbors` 或尝试不同距离度量进一步优化效果。
