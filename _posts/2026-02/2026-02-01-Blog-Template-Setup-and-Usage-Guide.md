@@ -1,6 +1,6 @@
 ---
 title: Blog Template Setup and Usage Guide
-description: 根据官方及huanyushi大佬的教程，对Chirpy主题相关使用方法进行总结
+description: 根据官方及huanyushi大佬的教程，对Chirpy主题相关使用方法进行总结。本博客主题参考自huanyushi大佬的配置。
 date: 2026-02-01
 categories: [shares]
 tags: [template]

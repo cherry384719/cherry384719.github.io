@@ -10,9 +10,9 @@ math: true
 ---
 
 > 在此下载本文对应的 Jupyter Notebook 文件及数据： 
-- [number_knn_classification.ipynb](https://github.com/cherry384719/Code_storage/blob/main/%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB/number_knn_classification.ipynb)（点击[这里](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB/number_knn_classification.ipynb)进行预览）
-- [data/mnist_test.csv](https://github.com/cherry384719/Code_storage/blob/main/%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB/data/mnist_test.csv)
-- [data/demo.png](https://github.com/cherry384719/Code_storage/blob/main/%E6%89%8B%E5%86%99%E6%95%B0%E5%AD%97%E8%AF%86%E5%88%AB/data/demo.png)
+- [**number_knn_classification.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)（点击[这里](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)可进行预览）
+- [**data/mnist_test.csv**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/data/mnist_test.csv)
+- [**data/demo.png**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/data/demo.png)
 {: .prompt-info}
 
 ## 利用 KNN 算法实现手写数字识别
