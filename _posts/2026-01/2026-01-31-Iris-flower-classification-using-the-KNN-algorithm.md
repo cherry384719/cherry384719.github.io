@@ -16,11 +16,11 @@ mermaid: true
 {: .prompt-info}
 
 ## 实现流程：
-- 1. 加载数据集
-- 2. 数据预处理
-- 3. 特征工程（特征提取、标准化...）
-- 4. 模型训练
-- 5. 模型预测与评估
+- 1.加载数据集
+- 2.数据预处理
+- 3.特征工程（特征提取、标准化...）
+- 4.模型训练
+- 5.模型预测与评估
 
 <details class="details-inline" markdown="1">
 <summary>flowchart</summary>
