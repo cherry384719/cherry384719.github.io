@@ -2,8 +2,8 @@
 title: Blog Template Setup and Usage Guide
 description: 根据官方及huanyushi大佬的教程，对Chirpy主题相关使用方法进行总结。本博客主题参考自huanyushi大佬的配置。
 date: 2026-02-01
-categories: [shares]
-tags: [template]
+categories: [template]
+tags: [blog]
 
 math: true
 pin: true
@@ -41,11 +41,9 @@ comments: Optional (default: true)
 ---
 ```
 
-## 2.常用语法：
+## 2. Prompt
 
-### 2.1 Prompt
-
-#### 模板作者已经设置的4个prompt
+### 模板作者已经设置的4个prompt
 ```markdown
 > Example line for prompt.
 {: .prompt-info }
@@ -55,7 +53,7 @@ comments: Optional (default: true)
 > Example line for prompt.
 {: .prompt-info }
 
-#### 大佬添加的新prompt
+### 大佬添加的新prompt
 ```markdown
 <div class="box-tip" markdown="1">
 <div class="title"> Shakespeare </div>
@@ -75,9 +73,9 @@ To be or not to be. That is a question.
 To be or not to be. That is a question.
 </div>
 
-### 2.2 Details 元素
+## 3. Details 元素
 
-#### 2.2.1 details-block
+### 3.1 details-block
 HTML 中的 `<details class="details-block">` 元素可以创建一个组件，仅当被切换为展开状态时，才会显示里面的内容，效果如下：
 
 <details class="details-block" markdown="1">
@@ -103,7 +101,7 @@ $$
 </details>
 ```
 
-#### 2.2.2 details-inline
+### 3.2 details-inline
 更简洁的一种details显示方式（截取自[huanyushi大佬的文章](https://huanyushi.github.io/posts/topological-manifolds-exercise/)）：
 
 <details class="details-inline" markdown="1">
@@ -146,9 +144,9 @@ Latex & markdown
 </details>
 ```
 
-### 2.3 图片
+## 4. 图片
 
-#### 2.3.1 显示设置
+### 显示设置
 对于基本的md语法来说，图片显示方法为：`![descriptiom](path/to/image)`。此外，在本主题中还能对图片大小、位置、名称、阴影进行调整。
 
 ```markdown
@@ -172,25 +170,70 @@ _Image Caption_   // 图片名称
 ![Dark mode only](/path/to/dark-mode.png){: .dark }
 ```
 
-#### 2.3.2 存放规范
-封面图片放在`~/assets/img`中，其他图片建议放在自建图床上。
+### 存放规范
+图片建议放在自建图床上，推荐使用 Cloudflare R2 / GitHub + PicGo组合。
 
 <div class="box-tip" markdown="1">
 <div class="title"> 好用的图床项目 </div>
-- [Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) （正在使用中）
-- [PicX](https://picx.xpoet.cn/#/) 
-- [PicGo](https://github.com/Molunerfinn/PicGo)
+- [**Telegraph-Image**](https://github.com/cf-pages/Telegraph-Image)  （基于telegram的图片接口）
+- [**PicX**](https://picx.xpoet.cn/#/) （基于github pages）
+- [**PicGo**](https://github.com/Molunerfinn/PicGo) （桌面软件，为通用图床上传工具，需配置接口）
 </div>
 
-个人图床网址：[https://photo.20061204.xyz/](https://photo.20061204.xyz/)
+个人图床网址：
+1. [https://photo.20061204.xyz/](https://photo.20061204.xyz/) （Telegraph-Image）
+2. [https://blog.20061204.xyz/{fileName}](https://blog.20061204.xyz/) （Cloudflare R2 + PicGo）
+
+## 5. PDF文件、PPT等
+推荐存放于Cloudflare R2中（能在浏览器中直接进行预览），markdown展示语法：
+
+1.**直接跳转**
+
+```markdown
+[📄 查看 PDF](https://你的R2域名/xxx.pdf)
+```
+
+2.**iframe 内嵌预览**
+
+```markdown
+<iframe
+  src="https://你的R2域名/xxx.pdf"
+  width="100%"
+  height="800px">
+</iframe>
+```
+
+示例：
+1. [📄 查看 PDF](https://blog.20061204.xyz/PicGo/kaggle中文.pdf)
+
+2. 
+<iframe
+  src="https://blog.20061204.xyz/PicGo/kaggle中文.pdf"
+  width="100%"
+  height="800px">
+</iframe>
+
+## 6. 视频、音频展示
+
+可对流媒体平台视频、个人视频、音频进行展示，详细信息参考[官方文档](https://chirpy.cotes.page/posts/write-a-new-post/#social-media-platforms)。
+
+视频展示简便方法：
+```markdown
+<video
+  src="https://你的R2域名/demo.mp4"
+  controls
+  width="100%"
+  preload="metadata">
+</video>
+```
 
 
-## 3.文件规范操作
+## 7. 文件结构
+Jekyll博客内容基于每篇markdown文件，你可以在`_post`中设置子文件夹，但是不会渲染多级子文件夹结构。
 
-### 3.1 命名
 在`_posts`文件夹中添加的markdown文件应命名为`YYYY-MM-DD-your-title.md`。
 
-### 3.2 代码、pdf文件和数据集等
+## 8. 代码存放
 不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
 
 对于Jupyter Notebook文件，还可以通过[https://nbviewer.org/](https://nbviewer.org/)这个网站进行链接预览。

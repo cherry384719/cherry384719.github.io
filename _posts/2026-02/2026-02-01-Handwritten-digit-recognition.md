@@ -9,6 +9,7 @@ mermaid: true
 math: true
 ---
 
+
 ---
 > 在此下载本文对应的 Jupyter Notebook 文件及数据： 
 - [**Handwritten_digit_recognition.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)（点击[这里](https://nbviewer.org/github/cherry384719/Code_storage/blob/main/Handwritten%20digit%20recognition/Handwritten_digit_recognition.ipynb)可进行预览）
@@ -31,7 +32,7 @@ project-root/
 
 ## 利用 KNN 算法实现手写数字识别
 
-![数据集](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMPaX9YyPLa3FxvlIRNC1jabEoGuy4AAl4PaxsSovlXVXB3Le_uBYQBAAMCAAN3AAM4BA.png)
+![数据集](https://blog.20061204.xyz/PicGo/AgACAgUAAyEGAASlJlL_AAMPaX9YyPLa3FxvlIRNC1jabEoGuy4AAl4PaxsSovlXVXB3Le_uBYQBAAMCAAN3AAM4BA.png)
 
 ### 实现流程：
 - 1.读取数据集并可视化样本
@@ -109,7 +110,7 @@ show_digit(9) # 显示索引为9的图片
 <details class="details-inline" markdown="1">
 <summary>运行结果</summary>
 
-![索引为9的图片](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMRaX9yaN2zWE8mYdOmSvTtC7QDxNsAAjINaxsSogFU2CkWNKmgo2YBAAMCAAN4AAM4BA.png){: .normal}
+![索引为9的图片](https://blog.20061204.xyz/PicGo/AgACAgUAAyEGAASlJlL_AAMRaX9yaN2zWE8mYdOmSvTtC7QDxNsAAjINaxsSogFU2CkWNKmgo2YBAAMCAAN4AAM4BA.png){: .normal}
 
 </details>
 
@@ -192,7 +193,7 @@ load_model_and_predict()
 <details class="details-inline" markdown="1">
 <summary>运行结果</summary>
 
-![demo.png](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMSaYCkpG5AQcn9eLHaVix6w9sYXMMAAuwNaxtniglULbRkpMd-ZQkBAAMCAAN4AAM4BA.png){: .normal}
+![demo.png](https://blog.20061204.xyz/PicGo/AgACAgUAAyEGAASlJlL_AAMSaYCkpG5AQcn9eLHaVix6w9sYXMMAAuwNaxtniglULbRkpMd-ZQkBAAMCAAN4AAM4BA.png){: .normal}
 
 **`预测的数字是: 2`**
 

@@ -5,7 +5,7 @@ categories: [machine learning]
 tags: [KNN]
 description: 本文通过一个完整的示例演示如何使用 KNN 算法对鸢尾花数据集进行分类，涵盖数据加载、可视化、训练/测试集划分、标准化处理、模型训练与预测评估，并给出新样本预测结果，帮助快速理解 KNN 的基本流程与效果。附源代码。
 image:
-  path: /assets/img/Iris_douglasiana_flower_2003-03-17.jpg
+  path: https://blog.20061204.xyz/PicGo/Iris_douglasiana_flower_2003-03-17.jpg
   alt: 鸢尾花
 
 mermaid: true
@@ -67,7 +67,7 @@ y = iris.target	    # 标签：3种鸢尾花 - setosa、versicolor、virginica
 
 `data`、`target`表示的值见下图：
 
-![image](https://photo.20061204.xyz/file/AgACAgUAAyEGAASlJlL_AAMLaX4C-8TwnIm5yutrKJHOSIQXgiEAApwNaxsSovFXUFLmvtyBAAH9AQADAgADeQADOAQ.png)
+![image](https://blog.20061204.xyz/PicGo/AgACAgUAAyEGAASlJlL_AAMLaX4C-8TwnIm5yutrKJHOSIQXgiEAApwNaxsSovFXUFLmvtyBAAH9AQADAgADeQADOAQ.png)
 
 #### 可视化数据集
 
@@ -99,7 +99,7 @@ def showIris():
 
 showIris()
 ```
-![iris_data_visualization](/assets/img/iris_data_visualization.png)
+![iris_data_visualization](https://blog.20061204.xyz/PicGo/iris_data_visualization.png)
 
 ### **第二步：** 数据预处理
 
