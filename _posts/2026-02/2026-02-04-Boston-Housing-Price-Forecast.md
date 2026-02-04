@@ -7,6 +7,8 @@ tags: [regression]     # TAG names should always be lowercase
 
 ---
 
+- [**Boston-Housing-Price-Forecast.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Boston-Housing-Price-Forecast.ipynb)
+
 **利用正则化线性回归和随机梯度下降线性回归进行预测，损失函数选择均方误差MSE。**
 
 ## 1. 导包、加载数据集
