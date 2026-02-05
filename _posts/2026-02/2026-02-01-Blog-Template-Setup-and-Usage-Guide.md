@@ -203,15 +203,6 @@ _Image Caption_   // 图片名称
 </iframe>
 ```
 
-示例：
-1. [📄 查看 PDF](https://blog.20061204.xyz/PicGo/kaggle中文.pdf)
-
-2. 
-<iframe
-  src="https://blog.20061204.xyz/PicGo/kaggle中文.pdf"
-  width="100%"
-  height="800px">
-</iframe>
 
 ## 6. 视频、音频展示
 
