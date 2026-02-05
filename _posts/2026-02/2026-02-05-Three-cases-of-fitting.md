@@ -9,6 +9,10 @@ math: true
 
 ---
 
+> 代码文件：
+[**Three_cases_of_fitting.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Three_cases_of_fitting.ipynb)
+{: .prompt-info}
+
 
 ## 拟合的三种情况：欠拟合、恰当拟合、过拟合
 
