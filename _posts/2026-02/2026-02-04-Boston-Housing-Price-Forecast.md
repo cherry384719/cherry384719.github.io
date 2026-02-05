@@ -91,4 +91,9 @@ plt.tight_layout()
 plt.show()
 ```
 
-![可视化结果](https://blog.20061204.xyz/PicGo/output.png)
+<details class="details-inline" markdown="1">
+<summary>运行结果</summary>
+
+![可视化结果](https://blog.20061204.xyz/PicGo/output.png){: .normal}
+
+</details>
