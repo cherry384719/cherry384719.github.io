@@ -177,7 +177,7 @@ _Image Caption_   // 图片名称
 <div class="title"> 好用的图床项目 </div>
 - [**Telegraph-Image**](https://github.com/cf-pages/Telegraph-Image)  （基于telegram的图片接口）
 - [**PicX**](https://picx.xpoet.cn/#/) （基于github pages）
-- [**PicGo**](https://github.com/Molunerfinn/PicGo) （桌面软件，为通用图床上传工具，需配置接口）
+- [**PicGo + Cloudflare R2**](https://github.com/Molunerfinn/PicGo) （桌面软件，为通用图床上传工具，需配置接口）
 </div>
 
 个人图床网址：
@@ -218,13 +218,56 @@ _Image Caption_   // 图片名称
 </video>
 ```
 
+## 7. github 贡献图
 
-## 7. 文件结构
+**博客中在`about`页面展示的github贡献图的两种显示方法介绍。**
+
+### 7.1 复制即用，方便快捷
+
+来自[github项目](https://github.com/2016rshah/githubchart-api)，只需将这一行代码
+```html
+<img src="https://ghchart.rshah.org/2016rshah" alt="2016rshah's Github chart" />
+```
+插入到markdown文档中，将其中的`2016rshah`替换为你的github名称即可显示。当然也可根据官方文档调节显示颜色。显示效果：
+
+![img](https://blog.20061204.xyz/PicGo/2026/02/259a920eb2b60b21308c330e30f8ce64.png){: .light}
+
+![img](https://blog.20061204.xyz/PicGo/2026/02/1ca3577a373d4f0ca1bf56d92d8c3e13.png){: .dark}
+
+### 7.2 需部署服务,显示效果好
+
+我通过vibe coding写了一个爬虫项目来爬取[github-contributions-chart](https://github.com/sallar/github-contributions-chart) 项目网站来获取图像。
+
+<div class="box-tip" markdown="1">
+<div class="title"> 工作原理 </div>
+
+服务通过 Puppeteer 自动化访问 [github-contributions-chart](https://github.com/sallar/github-contributions-chart) 项目的网站，该网站提供了美观的 GitHub 贡献图表可视化界面。服务会：
+
+1. 使用 Puppeteer 无头浏览器访问目标网站
+2. 自动填入 GitHub 用户名和选择主题
+3. 等待图表渲染完成
+4. 截取 Canvas 生成高清 PNG 图片
+5. 通过 Express API 提供图片访问接口
+
+简单来说，这是一个将网页版图表转换为 API 服务的工具。
+
+</div>
+
+具体部署方案参考该[爬虫项目](https://github.com/cherry384719/GitHub-contribution-chart)的文档。
+
+显示效果：
+
+![more details](https://szn624334-github-chart-api.hf.space/cherry384719?theme=classic){: .light }
+
+![more details](https://szn624334-github-chart-api.hf.space/cherry384719?theme=dracula){: .dark }
+
+
+## 8. 文件结构
 Jekyll博客内容基于每篇markdown文件，你可以在`_post`中设置子文件夹，但是不会渲染多级子文件夹结构。
 
 在`_posts`文件夹中添加的markdown文件应命名为`YYYY-MM-DD-your-title.md`。
 
-## 8. 代码存放
+## 9. 代码存放
 不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
 
 对于Jupyter Notebook文件，还可以通过[https://nbviewer.org/](https://nbviewer.org/)这个网站进行链接预览。
