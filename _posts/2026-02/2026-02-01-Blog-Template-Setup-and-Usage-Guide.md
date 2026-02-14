@@ -267,6 +267,56 @@ Jekyll博客内容基于每篇markdown文件，你可以在`_post`中设置子�
 
 在`_posts`文件夹中添加的markdown文件应命名为`YYYY-MM-DD-your-title.md`。
 
+### 相对路径的表示方法
+
+#### 1. 对于`post`文章之间的引用
+当文件结构如下时：
+```markdown
+_posts/
+├── 2026-01/
+│   ├── 2026-01-24-Overseas-AI-Software-Membership-Top-up-Guide.md
+│   └── 2026-01-24-Snaptube.md
+│
+└── 2026-02/
+      ├── 2026-02-01-Blog-Template-Setup-and-Usage-Guide.md
+      ├── 2026-02-01-Handwritten-digit-recognition.md
+      └── 2026-02-14-useful-prompt.md
+```
+可以在任意一篇.md文章中用 `[post cited](../the-name-of-the-cited-post)`来引用其他文章，其中`the-name-of-the-cited-post`为单一文件名中除去日期和后缀名.md的部分。
+
+<details class="details-inline" markdown="1">
+<summary>举个🌰</summary>
+
+比如我在本文中引用`2026-01-24-Overseas-AI-Software-Membership-Top-up-Guide.md`文章，则语法为
+```markdown
+[post cited](../Overseas-AI-Software-Membership-Top-up-Guide)
+```
+示例：[post cited](../Overseas-AI-Software-Membership-Top-up-Guide)
+
+</details>
+
+
+#### 2. 对于图片`assets/img`的引用
+文件结构：
+```markdown
+project-root/
+├── _posts/
+│   ├── 2026-01/
+│   │   └── *.md
+│   │
+│   └── 2026-02/
+│       └── *.md
+│
+└── assets/
+    └── img/
+        └── example.png
+
+```
+任意一篇`*.md`文章中引用图片语法:`[img](../../assets/img/example.png)`
+
+
+
+
 ## 9. 代码存放
 不应放在根目录下，建议新建仓库存放，链接到github上。[本博客代码仓库](https://github.com/cherry384719/Code_storage)。
 
