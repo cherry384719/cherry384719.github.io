@@ -199,7 +199,7 @@ Do NOT generate a generic or abstract face.
 
 生成图片：
 
-![img](https://blog.20061204.xyz/PicGo/2026/02/92b4d5f460c350a519315ba1478d6cc1.png)
+![img](https://blog.20061204.xyz/PicGo/2026/02/9c6f12dc8e01c9ca6b5cfe3fb997a843.png)
 
 
 ### 3. 海报生成提示词
