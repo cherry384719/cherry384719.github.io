@@ -5,6 +5,7 @@ date: 2026-02-04 22:00:00 +0800
 categories: [machine learning]
 tags: [regression]     # TAG names should always be lowercase
 
+image: https://blog.20061204.xyz/PicGo/2026/02/284cc884fc9065a848e8838537183e87.png
 ---
 
 - [**Boston-Housing-Price-Forecast.ipynb**](https://github.com/cherry384719/Code_storage/blob/main/Boston-Housing-Price-Forecast.ipynb)

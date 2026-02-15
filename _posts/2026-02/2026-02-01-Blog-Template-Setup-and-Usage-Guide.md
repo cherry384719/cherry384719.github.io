@@ -8,6 +8,8 @@ tags: [blog]
 math: true
 pin: true
 
+image: https://blog.20061204.xyz/PicGo/2026/02/a82d08643baf19c6f72a167b84c76e7e.png
+
 ---
 
 

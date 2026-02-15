@@ -4,9 +4,8 @@ date: 2026-01-31 00:00:00 +0800
 categories: [machine learning]
 tags: [KNN]
 description: 本文通过一个完整的示例演示如何使用 KNN 算法对鸢尾花数据集进行分类，涵盖数据加载、可视化、训练/测试集划分、标准化处理、模型训练与预测评估，并给出新样本预测结果，帮助快速理解 KNN 的基本流程与效果。附源代码。
-image:
-  path: https://blog.20061204.xyz/PicGo/Iris_douglasiana_flower_2003-03-17.jpg
-  alt: 鸢尾花
+
+image: https://blog.20061204.xyz/PicGo/2026/02/c4ae6d41115b9503cf8f58689d9d92c1.png
 
 mermaid: true
 ---

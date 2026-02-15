@@ -7,6 +7,7 @@ tags: [regularization]     # TAG names should always be lowercase
 
 math: true
 
+image: https://blog.20061204.xyz/PicGo/2026/02/73608a532ec53d389cb17e5aa5c956bf.png
 ---
 
 ## 使用正则化 (L1/L2)解决过拟合问题

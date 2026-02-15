@@ -7,6 +7,7 @@ tags: [fitting]     # TAG names should always be lowercase
 
 math: true
 
+image: https://blog.20061204.xyz/PicGo/2026/02/c94b2630f3941cb7801be1df3cff5c82.png
 ---
 
 > 代码文件：

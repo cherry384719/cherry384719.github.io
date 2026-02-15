@@ -7,6 +7,8 @@ tags: [KNN]
 
 mermaid: true
 math: true
+
+image: https://blog.20061204.xyz/PicGo/2026/02/ce39fef11192749cb585f67f617e1167.png
 ---
 
 

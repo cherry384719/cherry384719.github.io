@@ -1,9 +1,13 @@
 ---
 title: Overseas AI Software Membership Top-up Guide
 date: 2026-01-24 00:00:00 +0800
+
+description: "详细介绍如何充值ChatGPT、Claude、Gemini等海外AI软件会员的三种方法：通过Visa/Master卡绑定Google Play充值、使用外区Apple礼品卡充值、以及第三方平台代充租号，涵盖完整操作步骤和风险评估，帮助国内用户顺利开通海外AI会员服务。"
+
+image: https://blog.20061204.xyz/PicGo/2026/02/a6ce58ab22f4c66919c45121cd9ad6bf.png
+
 categories: [shares]
 tags: [overseas]
-description: "详细介绍如何充值ChatGPT、Claude、Gemini等海外AI软件会员的三种方法：通过Visa/Master卡绑定Google Play充值、使用外区Apple礼品卡充值、以及第三方平台代充租号，涵盖完整操作步骤和风险评估，帮助国内用户顺利开通海外AI会员服务。"
 ---
 
 # 1. 背景

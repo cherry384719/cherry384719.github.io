@@ -5,8 +5,7 @@ date: 2026-02-04
 categories: [machine learning]
 tags: [regression]     # TAG names should always be lowercase
 
-image:
-  path: https://blog.20061204.xyz/PicGo/1_a3HFulvxQQM32dHOY_Dtqw.jpg
+image: https://blog.20061204.xyz/PicGo/2026/02/29a5436030999cf9a9691e8f8e2eec91.png
 
 math: true
 ---
