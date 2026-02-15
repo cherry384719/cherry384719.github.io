@@ -24,6 +24,7 @@ pin: true
 ### 1. 手绘卡通风格信息图
 <details class="details-block" markdown="1">
 <summary>prompt</summary>
+默认为亮色主题，只需在第`8`行后面加上一段：`Dark theme: Use dark backgrounds (deep navy/charcoal/dark purple) with light-colored line work and text (white/cream/pastels) for contrast.`就能设为暗色主题。
 
 ```markdown
 [System / Prompt]
@@ -104,13 +105,15 @@ Create a cartoon-style hand-drawn infographic with the rules above, using nano b
 
 投喂markdown文档生成的图片：
 
-![img](https://blog.20061204.xyz/PicGo/2026/02/05d6248e1a7a904456c52f2a83f9e3eb.png)
+![img](https://blog.20061204.xyz/PicGo/2026/02/05d6248e1a7a904456c52f2a83f9e3eb.png){: .light}
+![img](https://blog.20061204.xyz/PicGo/2026/02/20ca9f78d095eedac1d12fabf6a065d4.png){: .dark}
 _来自帖子[Overseas AI Software Membership Top-up Guide](../Overseas-AI-Software-Membership-Top-up-Guide)_
 
 <details class="details-inline" markdown="1">
 <summary>更多效果图</summary>
 
-![img](https://blog.20061204.xyz/PicGo/2026/02/6e9acb3911bdb1b438035bc9084f652f.png)
+![img](https://blog.20061204.xyz/PicGo/2026/02/6e9acb3911bdb1b438035bc9084f652f.png){: .light}
+![img](https://blog.20061204.xyz/PicGo/2026/02/733c5e6c3e20a323a7e3b55b93296071.png){: .dark}
 _来自帖子[Blog Template Setup & Usage Guide](../Blog-Template-Setup-and-Usage-Guide)_
 
 </details>
@@ -199,7 +202,8 @@ Do NOT generate a generic or abstract face.
 
 生成图片：
 
-![img](https://blog.20061204.xyz/PicGo/2026/02/9c6f12dc8e01c9ca6b5cfe3fb997a843.png)
+![img](https://blog.20061204.xyz/PicGo/2026/02/9c6f12dc8e01c9ca6b5cfe3fb997a843.png){: .light}
+![img](https://blog.20061204.xyz/PicGo/2026/02/6ad3aa02951182fbcd3141f57c728c14.png){: .dark}
 
 
 ### 3. 海报生成提示词
