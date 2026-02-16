@@ -10,11 +10,10 @@ mermaid: true
 
 ---
 
-## GO并发
+## GO并发：找出2~1e6中的所有素数
 
-### 目标：找出2~1e6中的所有素数
 
-#### 0. 整体流程
+### 0. 整体流程
 
 ```mermaid
 graph TD
@@ -78,7 +77,7 @@ graph TD
 
 
 
-#### 1. 在协程中将2~1e6遍历输入至管道
+### 1. 在协程中将2~1e6遍历输入至管道
 
 ```go
 // putNum 存放数字到 channel (存放1-1e6的数字)
@@ -119,7 +118,7 @@ func main() {
 
    
 
-#### 2. 4个判断素数的协程
+### 2. 4个判断素数的协程
 
 从`numberChan` 中取出数，判断后放入`primeResultChan` 
 
@@ -169,7 +168,7 @@ func exitFunc(workDoneChan <-chan bool, primeResultChan chan int, numWorkers int
 }
 ```
 
-#### 3. 打印素数
+### 3. 打印素数
 
 ```go
 // printPrime 打印素数
@@ -187,7 +186,7 @@ func printPrime(primeResultChan <-chan int) {
 }
 ```
 
-#### 4. 总体流程
+### 4. 总体流程
 
 ```go
 func main() {
