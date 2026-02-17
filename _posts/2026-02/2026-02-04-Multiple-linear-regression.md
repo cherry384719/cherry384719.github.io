@@ -2,7 +2,7 @@
 title: Multiple linear regression
 description: 多元线性回归数学基础
 date: 2026-02-04
-categories: [machine learning]
+categories: [AI, machine learning]
 tags: [regression]     # TAG names should always be lowercase
 
 image: https://blog.20061204.xyz/PicGo/2026/02/29a5436030999cf9a9691e8f8e2eec91.png

@@ -2,7 +2,7 @@
 title: Handwritten digit recognition
 description: 用 KNN 完成 MNIST 手写数字识别的完整流程示例，包含可视化、训练、评估、保存与预测。
 date: 2026-02-01
-categories: [machine learning]
+categories: [AI, machine learning]
 tags: [KNN]
 
 mermaid: true

@@ -2,7 +2,7 @@
 title: Regularization L1/L2
 description: L1/L2 正则化
 date: 2026-02-09
-categories: [machine learning]
+categories: [AI, machine learning]
 tags: [regularization]     # TAG names should always be lowercase
 
 math: true

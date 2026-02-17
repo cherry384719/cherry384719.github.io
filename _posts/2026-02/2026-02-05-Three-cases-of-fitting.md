@@ -2,7 +2,7 @@
 title: Three cases of fitting
 description: 线性回归中的三种拟合情况分析
 date: 2026-02-05
-categories: [machine learning]
+categories: [AI, machine learning]
 tags: [fitting]     # TAG names should always be lowercase
 
 math: true

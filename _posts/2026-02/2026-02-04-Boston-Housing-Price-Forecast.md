@@ -2,7 +2,7 @@
 title: Boston Housing Price Forecast
 description: 波士顿房价预测--多元线性回归模型
 date: 2026-02-04 22:00:00 +0800
-categories: [machine learning]
+categories: [AI, machine learning]
 tags: [regression]     # TAG names should always be lowercase
 
 image: https://blog.20061204.xyz/PicGo/2026/02/284cc884fc9065a848e8838537183e87.png

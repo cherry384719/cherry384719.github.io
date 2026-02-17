@@ -1,7 +1,7 @@
 ---
 title: "Iris flower classification using the KNN algorithm"
 date: 2026-01-31 00:00:00 +0800
-categories: [machine learning]
+categories: [AI, machine learning]
 tags: [KNN]
 description: 本文通过一个完整的示例演示如何使用 KNN 算法对鸢尾花数据集进行分类，涵盖数据加载、可视化、训练/测试集划分、标准化处理、模型训练与预测评估，并给出新样本预测结果，帮助快速理解 KNN 的基本流程与效果。附源代码。
 
