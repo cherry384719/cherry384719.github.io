@@ -22,7 +22,7 @@ tags: [music, api]     # TAG names should always be lowercase
 <details class="details-inline" markdown="1">
 <summary>AlgerMusicPlayer</summary>
 
-网址在[这里](http://music.alger.fun/)
+网址在[这里](https://music.alger.fun/)，注意访问时会显示不安全，直接忽略即可。
 
 ![img](https://blog.20061204.xyz/PicGo/2026/02/8ec88ed55d925031353cedd054a2f70b.png){: .light}
 ![img](https://blog.20061204.xyz/PicGo/2026/02/d4e0e0df3c1ef1389b78f839ed631f7f.png){: .dark}
