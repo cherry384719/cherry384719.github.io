@@ -5,8 +5,6 @@ date: 2026-02-14
 categories: [AI, prompt]
 tags: [prompt]     # TAG names should always be lowercase
 
-image: https://blog.20061204.xyz/PicGo/2026/02/b3e5f96015b98fed44aecc6db5dd9851.png
-
 pin: true
 ---
 
