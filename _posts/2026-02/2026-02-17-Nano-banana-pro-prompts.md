@@ -192,17 +192,160 @@ Do NOT generate a generic or abstract face.
 
 </details>
 
-投喂图片：
-
-![img](https://blog.20061204.xyz/PicGo/2026/02/712d024b6e517cd47a4d37bd6bd39939.png){: .normal w="300"}
-
-生成图片：
 
 ![img](https://blog.20061204.xyz/PicGo/2026/02/9c6f12dc8e01c9ca6b5cfe3fb997a843.png){: .light}
 ![img](https://blog.20061204.xyz/PicGo/2026/02/6ad3aa02951182fbcd3141f57c728c14.png){: .dark}
 
 
-## ③ 海报生成提示词
+## ③ 生成人物设计图
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+横图，创作如图人物的A-pose设计图（不要照搬图中的动作），米白色底。
+有种初期设计的感觉。
+有各个部位拆分。
+要表情差分，多角度表情
+物品拆分，细节特写。
+并且使用手写体文字进行标注说明，最好使用中文。
+角色：保持好角色本体的现有特征，例如脸型、发色、身材等归属于人体特征的内容
+着装、图片的构成务必按照以下要求：
+以下是对人物着装细节的提取以及图片各部分
+二、 图片各部分内容详解
+整张设计图被清晰地划分为四个主要区域：
+左侧区域：三视图展示
+中上区域：各个部位拆分
+中下区域：内着的设计拆分
+右侧区域：细节特写
+按照以下要求一步步思考：
+Step1:提取角色的人体特征
+Step2: 规划着装细节
+Step3: 思考特点要求
+Step4:进行符合图片分区内容格式的图片生成
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/1cf1381882726b41e07357085720e796.png)
+
+
+## ④ 拍照解题
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+手写图文并茂解答该题
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/6abdb82c9fda96ca9b3995b4f4211f20.png)
+
+
+## ⑤ 天气应用3D卡通界面
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+呈现一幅清晰、呈45°俯视角的等距迷你3D卡通场景，展现[城市]最具标志性的地标与建筑元素。采用细腻柔和的纹理搭配真实物理渲染(PBR)材质，配合自然柔和的光影效果。将实时天气条件无缝融入城市环境，营造身临其境的氛围。
+
+构图简洁留白，使用纯色柔光背景。
+
+在画面上方居中位置放置粗体大标题"[城市]"，其下方配显眼的天气图标，接着以小号文字显示日期，中号文字标注温度。所有文本需保持居中排版与统一间距，可轻微叠盖建筑顶部。
+
+正方形画布尺寸1080×1080像素。
+
+（关键要素说明：）
+等距透视：采用45°斜俯视角呈现立体城市微缩景观
+风格处理：卡通化建模配合PBR材质实现细腻质感
+动态天气：根据实际数据渲染雨雪/晴空等天气特效
+信息层级：标题>天气图标>日期温度的三段式排版
+视觉平衡：建筑群与文字形成有机叠加又不喧宾夺主
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/ed2472fb05bc7fe0a722c02539eb3e5a.png)
+
+
+## ⑥ 1920年代童话插图
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+将此图像转换为1920年代童话插图，风格如Arthur Rackham。使用muted watercolor tones和intricate ink linework。填充场景以奇幻森林生物、扭曲树枝和隐藏魔法物体。整体色调神秘、迷人且略微诡异。添加手写书法风格的字幕和谜语。
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/1adfa22504299342210a112f6390cd28.png)
+
+## ⑦ 仿《清明上河图》风格 (芝加哥版)
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+一幅宏大的中国传统水墨工笔长卷画，完全模仿北宋张择端《清明上河图》的绘画风格、散点透视构图和古朴泛黄的绢本设色质感。
+
+核心场景： 繁忙的现代芝加哥河滨鸟瞰图。画面焦点是一座巨大的钢铁双层开合桥（杜萨布尔桥/密歇根大道桥），桥面交通极其拥堵，绘满了密密麻麻的现代汽车、黄色的出租车和芝加哥公交车，所有车辆都用毛笔线条精细勾勒。
+
+环境细节： 芝加哥河中满载现代游客的双层游船、水上出租车和皮划艇。河流两岸矗立着密集的古典复兴风格摩天大楼（类似箭牌大厦和论坛报大厦），建筑采用传统的“界画”技法绘制。背景中可见高架铁路结构和正在行驶的“L”线列车。
+
+人物活动： 河滨步道和桥上挤满了成百上千的微小现代人物，他们穿着当代休闲服装，有的在慢跑，有的举着智能手机拍照，有的在路边热狗摊排队购买食物，有的在遛狗。整个画面细节极其丰富，喧闹繁忙，完全使用古老的水墨和大地色调渲染。
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/db1df05a667b0b06870c46edc0d12585.png)
+
+
+## ⑧ 仿贴吧老哥吐槽批注
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+生成图片，把它打印出来，然后用红墨水疯狂地加上手写中文批注、涂鸦、乱画，如果你想的话，检索这个账户内容，涂鸦的内容主要为吐槽他，用贴吧老哥的口语疯狂吐槽。还可以加点小剪贴画。
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/6405c136accfddeea19cd09b47290c39.png)
+
+
+## ⑨ 文章排版为精美杂志
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+请将这段文字原封不动地复制到一张精美杂志文章的照片中，照片需包含图片、漂亮的排版设计、精选语录和大胆的格式。原文如下：
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/381266897a95b2aee11aa7907c53a5f2.png)
+
+## ⑩ 3D等距视角家庭办公插图
+
+<details class="details-block" markdown="1">
+<summary>prompt</summary>
+
+```markdown
+请根据你对我的了解，生成一副我正在家办公的3D等距视角的彩色插画，包含室内的各种细节描写，画面呈现出圆润、精致、趣味盎然的视觉风格。--ar 1:1 [附加细节: 我有3显示器，还有一只比熊犬]
+```
+
+</details>
+
+![img](https://blog.20061204.xyz/PicGo/2026/03/4e9585d049d6ef443e752a5c625f39db.png)
+
+
+## ⑪ 海报生成提示词
 
 **使用方法：**
 直接发送下方`prompt`，之后再发送markdown文本

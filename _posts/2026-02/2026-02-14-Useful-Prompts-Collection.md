@@ -11,6 +11,8 @@ pin: true
 <div class="box-tip" markdown="1">
 <div class="title"> 推荐及参考网站 </div>
 
+
+- [github.com/glidea/banana-prompt-quicker](https://github.com/glidea/banana-prompt-quicker)  （推荐）
 - [github.com/dongshuyan/Awesome-Prompts](https://github.com/dongshuyan/Awesome-Prompts)
 - [aiwind.org](https://aiwind.org/)
 - [prompt.vioaki.xyz](https://prompt.vioaki.xyz/)
@@ -97,6 +99,8 @@ pin: true
 
 
 ## 1. [**Nano Banana Pro**](../Nano-banana-pro-prompts)
+
+主要挑选我喜欢的提示词。更多可访问[该网站](https://glidea.github.io/banana-prompt-quicker/)自行挑选。
 
 包含有：
 - 手绘卡通风格信息图
